@@ -1,0 +1,176 @@
+﻿    @model BTCPayServer.Models.StoreViewModels.RatesViewModel
+@{
+    Layout = "../Shared/_NavLayout.cshtml";
+    ViewData.SetActivePageAndTitle(StoreNavPages.Rates, "Tarifas");
+}
+
+<h4>@ViewData["Title"]</h4>
+<partial name="_StatusMessage" for="@TempData["TempDataProperty-StatusMessage"]" />
+
+<div class="row">
+    <div class="col-md-8">
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <form method="post">
+            @if (Model.ShowScripting)
+            {
+                <div class="form-group">
+                    <h5>Scripting</h5>
+                    <span>El script de tasas le permite expresar con precisión cómo desea calcular las tasas para los pares de divisas.</span>
+                    <p class="text-muted">
+                        <b>Los intercambios soportados son</b>:
+                        @for (int i = 0; i < Model.AvailableExchanges.Length; i++)
+                        {
+                            <a href="@Model.AvailableExchanges[i].Url">@Model.AvailableExchanges[i].Name</a><span>@(i == Model.AvailableExchanges.Length - 1 ? "" : ",")</span>
+                        }
+                    </p>
+                    <p><a href="#help" data-toggle="collapse"><b>Haga clic aquí para mas información</b></a></p>
+                </div>
+            }
+            @if (Model.TestRateRules != null)
+            {
+                <div class="form-group">
+                    <h5>Prueba results:</h5>
+                    <table class="table table-sm table-responsive-md">
+                        <tbody>
+                            @foreach (var result in Model.TestRateRules)
+                            {
+                                <tr>
+                                    @if (result.Error)
+                                    {
+                                        <th class="small"><span class="fa fa-times" style="color:red;"></span> @result.CurrencyPair</th>
+                                    }
+                                    else
+                                    {
+                                        <th class="small"><span class="fa fa-check" style="color:green;"></span> @result.CurrencyPair</th>
+                                    }
+                                    <td class="small">@result.Rule</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            @if (Model.ShowScripting)
+            {
+                <div id="help" class="collapse text-left">
+                    <p>
+                        El lenguaje de script está compuesto de varias reglas compuestas por un par de divisas y una expresión matemática. El siguiente ejemplo utilizará <code>gdax</code> for both <code>LTC_USD</code> and <code>BTC_USD</code> pares.
+                    </p>
+                    <pre>
+                    <code>
+                            LTC_USD = gdax(LTC_USD);
+                            BTC_USD = gdax(BTC_USD);
+                        </code>
+                    </pre>
+                    <p>Sin embargo, establecer explícitamente pares específicos como este puede ser un poco difícil. En su lugar, puede definir una regla <code>X_X</code> que coincidirá con cualquier par de divisas. El siguiente ejemplo utilizará <code>gdax</code> para obtener la tasa de cualquier par de divisas.</p>
+                    <pre>
+                    <code>
+                            X_X = gdax(X_X);
+                        </code>
+                    </pre>
+                    <p>Sin embargo, <code>gdax</code> no soporta el <code>BTC_CAD</code> par. Por esta razón, puede agregar una regla que asigna todos <code>X_CAD</code> a <code>quadrigacx</code>, un intercambio canadiense.</p>
+                    <pre>
+                    <code>
+                            X_CAD = quadrigacx(X_CAD);
+                            X_X = gdax(X_X);
+                        </code>
+                    </pre>
+                    <p>Un par de divisas dado coincide con la regla más específica. Si dos reglas coinciden y son tan específicas, se elegirá la primera regla.</p>
+                    <p>
+                        Pero ahora, ¿y si quieres apoyar? <code>DOGE</code>? El problema con <code>DOGE</code> es que la mayoría de los intercambios no tienen ningún par para ello.. Pero <code>bittrex</code> tiene un <code>DOGE_BTC</code> par. <br />
+                        Afortunadamente, el motor de reglas te permite hacer referencia a las reglas:
+                    </p>
+                    <pre>
+                    <code>
+                            DOGE_X = bittrex(DOGE_BTC) * BTC_X
+                            X_CAD = quadrigacx(X_CAD);
+                            X_X = gdax(X_X);
+                        </code>
+                    </pre>
+                    <p>
+                        Con <code>DOGE_USD</code> se ampliará a <code>bittrex(DOGE_BTC) * gdax(BTC_USD)</code>. Y <code>DOGE_CAD</code> se ampliará a <code>bittrex(DOGE_BTC) * quadrigacx(BTC_CAD)</code>. <br />
+                        Sin embargo, le recomendamos que lo escriba para aumentar la cobertura de modo que <code>DOGE_BTC</code> también es compatible:
+                    </p>
+                    <pre>
+                    <code>
+                            DOGE_X = DOGE_BTC * BTC_X
+                            DOGE_BTC = bittrex(DOGE_BTC)
+                            X_CAD = quadrigacx(X_CAD);
+                            X_X = gdax(X_X);
+                        </code>
+                    </pre>
+                    <p>
+                        Vale la pena señalar que los inversos de esos pares también son soportados automáticamente.<br />
+                        Significa que la regla. <code>USD_DOGE = 1 / DOGE_USD</code> existe implícitamente.
+                    </p>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Script"></label>
+                    <textarea asp-for="Script" rows="20" cols="80" class="form-control"></textarea>
+                    <span asp-validation-for="Script" class="text-danger"></span>
+                    <a href="#" onclick="$('#Script').val(defaultScript); return false;">Establecer en la configuración predeterminada</a>
+                </div>
+                <div class="form-group">
+                    <a asp-action="ShowRateRules" asp-route-scripting="false">Desactivar la secuencia de comandos avanzada</a>
+                </div>
+            }
+            else
+            {
+                <div class="form-group">
+                    <label asp-for="PreferredExchange"></label>
+                    <select asp-for="PreferredExchange" asp-items="Model.Exchanges" class="form-control"></select>
+                    <span asp-validation-for="PreferredExchange" class="text-danger"></span>
+                    <p id="PreferredExchangeHelpBlock" class="form-text text-muted">
+                        Precio actual es <a href="@Model.RateSource" target="_blank">@Model.PreferredExchange</a>.
+                    </p>
+                </div>
+                <div class="form-group">
+                    <a asp-action="ShowRateRules" asp-route-scripting="true">Activar secuencias de comandos de regla de tasa avanzada</a>
+                </div>
+            }
+            <div class="form-group">
+                <label asp-for="Spread"></label>
+                <div class="input-group">
+                    <input asp-for="Spread" class="form-control" />
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">%</span>
+                    </div>
+                </div>
+                <span asp-validation-for="Spread" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <h5>Pruebas</h5>
+                <span>Ingrese los pares de divisas que desea probar contra su regla (eg. <code>DOGE_USD,DOGE_CAD,BTC_CAD,BTC_USD</code>)</span>
+                <div class="input-group">
+                    <input placeholder="BTC_USD, BTC_CAD" asp-for="ScriptTest" class="form-control" />
+                    <span class="input-group-btn">
+                        <button name="command" value="Test" type="submit" class="btn btn-primary" title="Test">
+                            <span class="fa fa-vial"></span> Prueba
+                        </button>
+                    </span>
+                </div>
+                <span asp-validation-for="ScriptTest" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <h5>Pares de divisas por defecto</h5>
+                <span>Puedes consultar esos pares vía REST consultando <a asp-controller="Rate" asp-action="GetRates2" asp-route-storeId="@Model.StoreId" target="_blank">este enlace</a> sin necesidad de especificar pares de divisas.</span>
+                <div class="input-group">
+                    <input placeholder="BTC_USD, BTC_CAD" asp-for="DefaultCurrencyPairs" class="form-control" />
+                </div>
+                <span asp-validation-for="DefaultCurrencyPairs" class="text-danger"></span>
+            </div>
+            <button name="command" type="submit" class="btn btn-primary" value="Save">Guardar</button>
+            <input type="hidden" asp-for="ShowScripting" />
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">var defaultScript = @Html.Raw(Json.Serialize(Model.DefaultScript));</script>
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,20 @@
+﻿@{ 
+    var allErrors = ViewData.ModelState.Values.SelectMany(v => v.Errors.Select(b => b.ErrorMessage));
+}
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Falló la solicitud del botón de pago</h2>
+                Por favor, corrija los siguientes errores:
+                <ul>
+                    @foreach (var error in allErrors)
+                    {
+                        <li>@error</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

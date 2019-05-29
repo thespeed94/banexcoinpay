@@ -1,0 +1,12 @@
+﻿<div class="nav flex-column nav-pills">
+    <a class="nav-link @ViewData.IsActivePage(ServerNavPages.Users)" asp-action="Users">Usuarios</a>
+    <a class="nav-link @ViewData.IsActivePage(ServerNavPages.Rates)" asp-action="Rates">Tarifas</a>
+    <a class="nav-link @ViewData.IsActivePage(ServerNavPages.Emails)" asp-action="Emails">Servidor de correo electrónico</a>
+    <a class="nav-link @ViewData.IsActivePage(ServerNavPages.Policies)" asp-action="Policies">Políticas</a>
+    <a class="nav-link @ViewData.IsActivePage(ServerNavPages.Services)" asp-action="Services">Servicios</a>
+    <a class="nav-link @ViewData.IsActivePage(ServerNavPages.Theme)" asp-action="Theme">Tema</a>
+    <a class="nav-link @ViewData.IsActivePage(ServerNavPages.Maintenance)" asp-action="Maintenance">Mantenimiento</a>
+    <a class="nav-link @ViewData.IsActivePage(ServerNavPages.Logs)" asp-action="Logs">Registros</a>
+    <a class="nav-link @ViewData.IsActivePage(ServerNavPages.Files)" asp-action="Files">Archivos</a>
+</div>
+

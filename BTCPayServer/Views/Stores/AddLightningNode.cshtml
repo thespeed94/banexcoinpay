@@ -1,0 +1,106 @@
+﻿@model LightningNodeViewModel
+@{
+    Layout = "../Shared/_NavLayout.cshtml";
+    ViewData.SetActivePageAndTitle(StoreNavPages.Index, "Agregar nodo de lightning (Experimental)");
+}
+
+<h4>@ViewData["Title"]</h4>
+<partial name="_StatusMessage" for="StatusMessage" />
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <p>
+        <span>Antes de continuar, comprenda que Lightning Network aún se encuentra en la etapa experimental. No ponga el dinero que no puede permitirse perder. Existe un alto riesgo de que pierdas el dinero.</span>
+    </p>
+    <p>
+        Tómese el tiempo para familiarizarse con el riesgo. No hay respaldo para las claves LND o c-lightning en BTCPay. Tus llaves están en una billetera caliente. Esto significa :
+    </p>
+    <ul>
+        <li>La mayoría de las implementaciones de BTCPay Server se ejecutan en un nodo eliminado, que, mientras trabaja, no es oficialmente compatible con las implementaciones de redes de rayos.</li>
+        <li>Si borra su máquina virtual de BTCPay Server, pierde todos los fondos.</li>
+        <li>Si su servidor es hackeado, un pirata informático puede tomar todos sus fondos accediendo a sus claves.</li>
+        <li>Si hay un error en la implementación de una red Lightning, podría perder todos los fondos..</li>
+        <li>Usted aprueba ser #reckless y ser el único responsable de su pérdida.</li>
+        <li>Usted aprueba mantener en su nodo Lightning solo lo que puede permitirse perder.</li>
+    </ul>
+</div>
+
+<div class="row">
+    <div class="col-md-10">
+        <form method="post">
+            <div class="form-group">
+                <p>Esta cadena de conexión encapsula la información necesaria que BTCPay necesita para conectarse a su nodo relámpago, actualmente admitimos:</p>
+                <ul>
+                    <li><code>clightning</code> a través de TCP o conexión de socket de dominio Unix</li>
+                    <li><code>lightning charge</code> via HTTPS</li>
+                    <li><code>lnd</code> a través del proxy REST</li>
+                </ul>
+                <table class="table table-sm table-responsive-md">
+                    <thead>
+                        <tr>
+                            <th>Ejemplos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <th class="small"><b>type=</b>clightning;<b>server=</b>unix://root/.lightning/lightning-rpc</th>
+                        </tr>
+                        <tr>
+                            <th class="small"><b>type=</b>clightning;<b>server=</b>tcp://1.1.1.1:27743/</th>
+                        </tr>
+                        <tr>
+                            <th class="small"><b>type=</b>lnd-rest;<b>server=</b>http://mylnd:8080/;<b>macaroonfilepath=</b>/root/.lnd/admin.macaroon;<b>allowinsecure=</b>true</th>
+                        </tr>
+                        <tr>
+                            <th class="small"><b>type=</b>lnd-rest;<b>server=</b>https://mylnd:8080/;<b>macaroon=</b>abef263adfe...</th>
+                        </tr>
+                        <tr>
+                            <th class="small"><b>type=</b>lnd-rest;<b>server=</b>https://mylnd:8080/;<b>macaroon=</b>abef263adfe...;<b>certthumbprint=</b>abef263adfe...</th>
+                        </tr>
+                        <tr>
+                            <th class="small"><b>type=</b>charge;<b>server=</b>https://charge:8080/;<b>api-token=</b>myapitoken...</th>
+                        </tr>
+                        <tr>
+                            <th class="small"><b>type=</b>eclair;<b>server=</b>https://eclair:8080/;<b>password=</b>eclairpassword...</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Tenga en cuenta que el <code>certthumbprint</code> para conectarse a su nodo LND se puede obtener a través de esta línea de comando:</p>
+                <p><pre><code>openssl x509 -noout -fingerprint -sha256 -inform pem -in /root/.lnd/tls.cert</code></pre></p>
+                <p>Puedes omitir <code>certthumprint</code> si el certificado es de confianza para su máquina.</p>
+                <p>Puede establecer <code>allowinsecure</code> a <code>true</code> Si su servidor LND REST está usando HTTP o HTTPS con un certificado no confiable que usted desconoce <code>certthumprint</code></p>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConnectionString"></label>
+                <input id="lightningurl" asp-for="ConnectionString" class="form-control" />
+                <span asp-validation-for="ConnectionString" class="text-danger"></span>
+                @if (Model.InternalLightningNode != null)
+                {
+                    <p class="form-text text-muted">
+                        Puede utilizar el nodo de lightning interno por <a href="#" onclick="$('#lightningurl').val('@Model.InternalLightningNode'); return false;">haciendo clic aquí</a>
+                    </p>
+                }
+            </div>
+            <div class="form-group">
+                <label asp-for="Enabled"></label>
+                <input asp-for="Enabled" type="checkbox" class="form-check" />
+            </div>
+            <button name="command" type="submit" value="save" class="btn btn-primary">Enviar</button>
+            <button name="command" type="submit" value="test" class="btn btn-secondary">Conexión de prueba</button>
+            <a 
+                class="btn btn-secondary"
+                asp-controller="PublicLightningNodeInfo" 
+               asp-action="ShowLightningNodeInfo" 
+               asp-route-cryptoCode="@Model.CryptoCode" 
+               asp-route-storeId="@Model.StoreId"
+               target="_blank">
+                Abrir la página de información del nodo público
+            </a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,30 @@
+﻿@model UsersViewModel
+@{
+    ViewData.SetActivePageAndTitle(ServerNavPages.Users);
+}
+
+
+<h4>@ViewData["Title"]</h4>
+<!--<h4>Usuarios</h4>-->
+<partial name="_StatusMessage" for="StatusMessage" />
+
+<a asp-controller="Account" asp-action="Register" asp-route-returnUrl="@Context.Request.GetCurrentPath()" asp-route-logon="false" class="btn btn-primary" role="button"><span class="fa fa-plus"></span> Crear un nuevo usuario</a>
+<table class="table table-sm table-responsive-md">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td><a asp-action="User" asp-route-userId="@user.Id">Modificar</a> <span> - </span> <a asp-action="DeleteUser" asp-route-userId="@user.Id">Eliminar</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

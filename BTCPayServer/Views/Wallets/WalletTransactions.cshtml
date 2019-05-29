@@ -1,0 +1,78 @@
+﻿@model ListTransactionsViewModel
+@{
+    Layout = "../Shared/_NavLayout.cshtml";
+    ViewData["Title"] = "Administrar billetera";
+    ViewData.SetActivePageAndTitle(WalletsNavPages.Transactions);
+}
+
+<style type="text/css">
+    .smMaxWidth {
+        max-width: 200px;
+    }
+
+    @@media (min-width: 768px) {
+        .smMaxWidth {
+            max-width: 400px;
+        }
+    }
+
+    .unconf {
+        opacity: 0.5;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-10 text-center">
+        <partial name="_StatusMessage" for="@TempData["TempDataProperty-StatusMessage"]" />
+    </div>
+</div>
+<h4>@ViewData["Title"]</h4>
+<div class="row">
+    <div class="col-md-12">
+        Si BTCPay Server le muestra un saldo no válido, <a asp-action="WalletRescan">volver a escanear su billetera</a>. <br />
+        Si algunas transacciones aparecen en BTCPay Server, pero faltan en Electrum u otra billetera, <a href="https://docs.btcpayserver.org/faq-and-common-issues/faq-wallet#missing-payments-in-my-software-or-hardware-wallet">sigue esas instrucciones</a>.
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-sm table-responsive-lg">
+            <thead class="thead-inverse">
+                <tr>
+                    <th style="min-width: 90px;" class="col-md-auto">
+                        Fecha
+                        <a href="javascript:switchTimeFormat()">
+                            <span class="fa fa-clock-o" title="Switch date format"></span>
+                        </a>
+                    </th>
+                    <th>ID de transacción</th>
+                    <th style="text-align:right">Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var transaction in Model.Transactions)
+                {
+                    <tr class="@(transaction.IsConfirmed ? "" : "unconf")">
+                        <td>
+                            <span class="switchTimeFormat" data-switch="@transaction.Timestamp.ToTimeAgo()">
+                                @transaction.Timestamp.ToBrowserDate()
+                            </span>
+                        </td>
+                        <td class="smMaxWidth text-truncate">
+                            <a href="@transaction.Link" target="_blank">
+                                @transaction.Id
+                            </a>
+                        </td>
+                        @if (transaction.Positive)
+                        {
+                            <td style="text-align:right; color:green;">@transaction.Balance</td>
+                        }
+                        else
+                        {
+                            <td style="text-align:right; color:red;">@transaction.Balance</td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

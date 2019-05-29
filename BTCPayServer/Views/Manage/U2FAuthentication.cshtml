@@ -1,0 +1,47 @@
+@model BTCPayServer.Services.U2F.Models.U2FAuthenticationViewModel
+@{
+    ViewData.SetActivePageAndTitle(ManageNavPages.U2F, "Administra tus dispositivos U2F registrados");
+}
+
+<partial name="_StatusMessage" for="StatusMessage"/>
+<h4>Dispositivos U2F registrados</h4>
+<form asp-action="AddU2FDevice" method="get">
+    <table class="table table-lg">
+        <thead>
+        <tr>
+            <th >Nombre</th>
+            <th class="text-right">Acciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var device in Model.Devices)
+        {
+            <tr>
+                <td>@device.Name</td>
+                <td class="text-right" >
+                        <a asp-action="RemoveU2FDevice" asp-route-id="@device.Id">Eliminar</a>
+               
+                </td>
+            </tr>
+        }
+        @if (!Model.Devices.Any())
+        {
+            <tr>
+                <td colspan="2" class="text-center h5 py-2">
+                    No hay dispositivos registrados
+                </td>
+            </tr>
+        }
+        <tr class="bg-gray">
+            <td>
+                <input type="text" class="form-control" name="Name" placeholder="Nuevo nombre del dispositivo"/>
+            </td>
+            <td>
+                <div class="pull-right">
+                    <button type="submit" class="btn btn-primary">Agrega un nuevo dispositivo</button>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>

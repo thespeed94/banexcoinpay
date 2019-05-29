@@ -1,0 +1,215 @@
+﻿@model InvoiceDetailsModel
+@{
+    ViewData["Title"] = "Factura " + Model.Id;
+}
+@section HeaderContent{
+    <META NAME="robots" CONTENT="noindex,nofollow">
+}
+
+<style type="text/css">
+    .linethrough {
+        text-decoration: line-through;
+    }
+
+    .firstCol {
+        width: 140px;
+    }
+</style>
+
+<section>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <partial name="_StatusMessage" for="StatusMessage" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">@ViewData["Title"]</h2>
+                <hr class="primary">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Información</h3>
+                <table class="table table-sm table-responsive-md">
+                    <tr>
+                        <th>Tienda</th>
+                        <td><a href="@Model.StoreLink">@Model.StoreName</a></td>
+                    </tr>
+                    <tr>
+                        <th>Id</th>
+                        <td>@Model.Id</td>
+                    </tr>
+                    <tr>
+                        <th>Estado</th>
+                        <td>@Model.State</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha de creación</th>
+                        <td>@Model.CreatedDate.ToBrowserDate()</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha de caducidad</th>
+                        <td>@Model.ExpirationDate.ToBrowserDate()</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha de monitoreo</th>
+                        <td>@Model.MonitoringDate.ToBrowserDate()</td>
+                    </tr>
+                    <tr>
+                        <th>Velocidad de transacción</th>
+                        <td>@Model.TransactionSpeed</td>
+                    </tr>
+                    <tr>
+                        <th>Email de reembolso</th>
+                        <td><a href="mailto:@Model.RefundEmail">@Model.RefundEmail</a></td>
+                    </tr>
+                    <tr>
+                        <th>Order Id</th>
+                        <td>@Model.OrderId</td>
+                    </tr>
+                    <tr>
+                        <th>Total fiat debido</th>
+                        <td>@Model.Fiat</td>
+                    </tr>
+                    <tr>
+                        <th>Email de notificación</th>
+                        <td>@Model.NotificationEmail</td>
+                    </tr>
+                    <tr>
+                        <th>URL de notificación</th>
+                        <td>@Model.NotificationUrl</td>
+                    </tr>
+                    <tr>
+                        <th>Redireccionar URL</th>
+                        <td><a href="@Model.RedirectUrl">@Model.RedirectUrl</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-md-6">
+                <h3>Información del comprador</h3>
+                <table class="table table-sm table-responsive-md">
+                    <tr>
+                        <th>Nombre</th>
+                        <td>@Model.BuyerInformation.BuyerName</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td><a href="mailto:@Model.BuyerInformation.BuyerEmail">@Model.BuyerInformation.BuyerEmail</a></td>
+                    </tr>
+                    <tr>
+                        <th>Teléfono</th>
+                        <td>@Model.BuyerInformation.BuyerPhone</td>
+                    </tr>
+                    <tr>
+                        <th>Dirección 1</th>
+                        <td>@Model.BuyerInformation.BuyerAddress1</td>
+                    </tr>
+                    <tr>
+                        <th>Dirección 2</th>
+                        <td>@Model.BuyerInformation.BuyerAddress2</td>
+                    </tr>
+                    <tr>
+                        <th>Ciudad</th>
+                        <td>@Model.BuyerInformation.BuyerCity</td>
+                    </tr>
+                    <tr>
+                        <th>Estado</th>
+                        <td>@Model.BuyerInformation.BuyerState</td>
+                    </tr>
+                    <tr>
+                        <th>País</th>
+                        <td>@Model.BuyerInformation.BuyerCountry</td>
+                    </tr>
+                    <tr>
+                        <th>Zip</th>
+                        <td>@Model.BuyerInformation.BuyerZip</td>
+                    </tr>
+                </table>
+                @if (Model.PosData.Count == 0)
+                {
+                    <h3>Información del Producto</h3>
+                    <table class="table table-sm table-responsive-md">
+                        <tr>
+                            <th>Código del objeto</th>
+                            <td>@Model.ProductInformation.ItemCode</td>
+                        </tr>
+                        <tr>
+                            <th>Descripción del Artículo</th>
+                            <td>@Model.ProductInformation.ItemDesc</td>
+                        </tr>
+                        <tr>
+                            <th>Precio</th>
+                            <td>@Model.Fiat</td>
+                        </tr>
+                        <tr>
+                            <th>Impuesto incluido</th>
+                            <td>@Model.TaxIncluded</td>
+                        </tr>
+                    </table>
+                }
+            </div>
+        </div>
+
+        @if (Model.PosData.Count != 0)
+        {
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Información del Producto</h3>
+                    <table class="table table-sm table-responsive-md">
+                        <tr>
+                            <th>Código del objeto</th>
+                            <td>@Model.ProductInformation.ItemCode</td>
+                        </tr>
+                        <tr>
+                            <th>Descripción del Artículo</th>
+                            <td>@Model.ProductInformation.ItemDesc</td>
+                        </tr>
+                        <tr>
+                            <th>Precio</th>
+                            <td>@Model.Fiat</td>
+                        </tr>
+                        <tr>
+                            <th>Impuesto incluido</th>
+                            <td>@Model.TaxIncluded</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h3>Datos del punto de venta</h3>
+                    <partial name="PosData" model="@Model.PosData" />
+                </div>
+            </div>
+        }
+
+        <partial name="InvoicePaymentsPartial" model="Model" />
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Eventos</h3>
+                <table class="table table-sm table-responsive-md">
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Mensaje</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var evt in Model.Events)
+                        {
+                            <tr>
+                                <td>@evt.Timestamp.ToBrowserDate()</td>
+                                <td>@evt.Message</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

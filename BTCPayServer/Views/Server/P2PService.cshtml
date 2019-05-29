@@ -1,0 +1,107 @@
+﻿@model LightningWalletServices
+@{
+    ViewData.SetActivePageAndTitle(ServerNavPages.Services);
+}
+
+
+<h4>@Model.WalletName</h4>
+<partial name="_StatusMessage" for="@TempData["StatusMessage"]" />
+
+@if (Model.ShowQR)
+{
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div>
+            <span><b>CONFIDENCIAL:</b> Este código QR es confidencial, cierre esta ventana tan pronto como ya no lo necesite.<br /></span>
+            <span>Un actor malicioso con acceso a este código QR puede afectar el rendimiento de su servidor.</span>
+        </div>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="form-group">
+            <h5>Conexión de nodo completo</h5>
+            <p>
+                <span>Esta página expone información para conectarse de forma remota a su nodo completo a través del protocolo P2P.</span>
+            </p>
+        </div>
+        <div class="form-group">
+            <h5>Carteras compatibles</h5>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 ml-auto text-center">
+                <a href="https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet" target="_blank">
+                    <img src="~/img/GreenWallet.png" height="100" />
+                </a>
+                <p><a href="https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet" target="_blank">Billetera verde blockstream</a></p>
+            </div>
+            <div class="col-lg-3 mr-auto text-center">
+                <a href="https://www.wasabiwallet.io/" target="_blank">
+                    <img src="~/img/wasabi.png" height="100" />
+                </a>
+                <p><a href="https://www.wasabiwallet.io/" target="_blank">Cartera Wasabi</a> <a href="https://www.reddit.com/r/WasabiWallet/comments/aqlyia/how_to_connect_wasabi_wallet_to_my_own_full/" target="_blank"><span class="fa fa-question-circle-o" title="Más información..."></span></a></p>
+            </div>
+            <div class="col-lg-3 mr-auto text-center">
+
+            </div>
+            <div class="col-lg-3 mr-auto text-center">
+
+            </div>
+        </div>
+        <div class="form-group">
+            <h5>Conexión de código QR</h5>
+            <p>
+                <span>Puede utilizar el código QR para conectarse a @Model.WalletName con carteras compatibles.<br /></span>
+            </p>
+        </div>
+        <div class="form-group">
+            @if (!Model.ShowQR)
+            {
+                <div class="form-group">
+                    <form method="get">
+                        <input type="hidden" asp-for="ShowQR" value="true" />
+                        <button type="submit" class="btn btn-primary">Mostrar Código QR Confidencial</button>
+                    </form>
+                </div>
+            }
+            else
+            {
+                <div class="form-group">
+                    <div id="qrCode"></div>
+                    <div id="qrCodeData" data-url="@Html.Raw(Model.ServiceLink)"></div>
+                </div>
+                <p>Consulte la información del código QR haciendo clic <a href="#detailsQR" data-toggle="collapse">aquí</a></p>
+                <div id="detailsQR" class="collapse">
+                    <div class="form-group">
+                        <label>Datos del código QR</label>
+                        <input asp-for="ServiceLink" readonly class="form-control" />
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    @if (Model.ShowQR)
+    {
+        <script type="text/javascript" src="~/js/qrcode.min.js"></script>
+        <script type="text/javascript">
+        new QRCode(document.getElementById("qrCode"),
+            {
+                text: "@Html.Raw(Model.ServiceLink)",
+                width: 150,
+                height: 150
+            });
+        </script>
+    }
+}

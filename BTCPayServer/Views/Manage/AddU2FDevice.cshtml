@@ -1,0 +1,58 @@
+@model BTCPayServer.Services.U2F.Models.AddU2FDeviceViewModel
+@{
+    ViewData.SetActivePageAndTitle(ManageNavPages.U2F, "Añadir dispositivo U2F");
+}
+
+<form asp-action="AddU2FDevice" method="post" id="registerForm" class="hidden">
+    
+    <input type="hidden" asp-for="AppId"/>
+    <input type="hidden" asp-for="Version"/>
+    <input type="hidden" asp-for="Challenge"/>
+    <input type="hidden" asp-for="Name"/>
+    <input type="hidden" asp-for="DeviceResponse"/>
+</form>
+
+
+<div class="card">
+    <h3 class="card-title px-1"><span class="fa fa-spinner fa-spin"></span>Registro de dispositivo U2F</h3>
+    <div class="card-body">
+        <p>Inserte su dispositivo U2F o una billetera de hardware en el puerto USB de su computadora. Si tiene un botón, tócalo..</p>
+        
+        <a id="error-response" class="text-danger" href="javascript:window.location.reload()"> </a>
+    </div>
+    
+    <div class="card-footer">
+        <a class="btn btn-secondary" asp-action="U2FAuthentication" id="btn-back">Abortar</a>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script src="~/vendor/u2f/u2f-api-1.1.js"></script>
+    <script type="text/javascript">
+        var errorMap = {
+            1: 'Error desconocido, inténtalo de nuevo',
+            2: "Error de solicitud incorrecta, inténtalo de nuevo",
+            3: "Esta tecla no es compatible, por favor intente con otra",
+            4: 'El dispositivo ya está registrado, por favor inicie sesión.',
+            5: 'Autenticación agotada. Por favor, vuelva a cargar para intentarlo de nuevo.'
+        };
+
+        setTimeout(function() {
+                var request = { "challenge": "@Model.Challenge", "version": "@Model.Version", "appId": "@Model.AppId" };
+                var registerRequests = [{version: request.version, challenge: request.challenge}];
+                u2f.register(request.appId, registerRequests, [],
+                    function(data) {
+                        if (data.errorCode) {
+                            $("#error-response").text(errorMap[data.errorCode]);
+                            return;
+                        }
+                        $('#DeviceResponse').val(JSON.stringify(data));
+                        $('#registerForm').submit();
+
+                        return false;
+                    });
+            },
+            1000);
+    </script>
+}

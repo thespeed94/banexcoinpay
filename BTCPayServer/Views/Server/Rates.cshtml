@@ -1,0 +1,62 @@
+﻿@model BTCPayServer.Models.ServerViewModels.RatesViewModel
+@{
+    ViewData.SetActivePageAndTitle(ServerNavPages.Rates);
+}
+
+
+<h4>@ViewData["Title"]</h4>
+<partial name="_StatusMessage" for="@TempData["TempDataProperty-StatusMessage"]" />
+
+
+<div class="row">
+    <div class="col-md-6">
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <div class="form-group">
+            <h5>Promedio de bitcoins</h5>
+            <p>BTCPay se basa en el promedio de Bitcoin para obtener criptomonedas a tasas fiat</p>
+            <p>Si desea que el caché de tasa BTCPay sea menor a 15 minutos, debe registrarse en BitcoinAverage y obtener una clave API pagada.</p>
+            <p>Si su instancia de servidor BTCPay es compatible con muchos comerciantes o se usa mucho, BitcoinAverage limitará la tasa de su servidor y la factura se creará utilizando tasas menos precisas. (De Bitpay)<br /></p>
+        </div>
+        <form method="post">
+            <label asp-for="PublicKey"></label>
+            <div class="form-inline">
+                <input asp-for="PublicKey" style="width:50%;" class="form-control" placeholder="Llave pública" />
+                <label class="sr-only" asp-for="PrivateKey"></label>
+                <input asp-for="PrivateKey" style="width:50%;" class="form-control" placeholder="Llave privada" />
+                <p class="form-text text-muted">Puedes encontrar la información en <a target="_blank" href="https://bitcoinaverage.com/en/apikeys">página clave de la API de bitcoinaverage</a></p>
+            </div>
+            <div class="form-group">
+                <label asp-for="CacheMinutes"></label>
+                <input asp-for="CacheMinutes" class="form-control" />
+                <span asp-validation-for="CacheMinutes" class="text-danger"></span>
+            </div>
+            @if(Model.RateLimits != null)
+            {
+                <h5>Cuotas promedio actuales de Bitcoin:</h5>
+                <table class="table table-sm">
+                    <tr>
+                        <th>Periodo de cuota</th>
+                        <td>@Model.RateLimits.TotalPeriod.TimeString()</td>
+                    </tr>
+                    <tr>
+                        <th>Solicita cuota</th>
+                        <td>@Model.RateLimits.RequestsLeft/@Model.RateLimits.RequestsPerPeriod</td>
+                    </tr>
+                    <tr>
+                        <th>Reinicio de cuota en</th>
+                        <td>@Model.RateLimits.CounterReset.TimeString()</td>
+                    </tr>
+                </table>
+            }
+            <button type="submit" class="btn btn-primary" name="command" value="Save">Guardar</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

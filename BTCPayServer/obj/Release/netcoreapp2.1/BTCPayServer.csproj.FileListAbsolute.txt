@@ -1,0 +1,296 @@
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.deps.json
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.runtimeconfig.json
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.runtimeconfig.dev.json
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.dll
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.pdb
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.Views.dll
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.Views.pdb
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.csprojAssemblyReference.cache
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.csproj.CoreCompileInputs.cache
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorAssemblyInfo.cache
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorAssemblyInfo.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.AssemblyInfoInputs.cache
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.AssemblyInfo.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.TagHelpers.input.cache
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.TagHelpers.output.cache
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorCoreGenerate.cache
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\AccessDenied.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ExternalLogin.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\Lockout.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\LoginWith2fa.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\LoginWithRecoveryCode.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\LoginWithU2F.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\SecondaryLogin.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\SignedOut.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\Crowdfund\ContributeForm.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\Crowdfund\MinimalCrowdfund.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\Crowdfund\VueCrowdfund.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\ViewCrowdfund.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\ViewPointOfSale.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\CreateApp.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\ListApps.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\UpdateCrowdfund.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\UpdatePointOfSale.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Home\BitpayTranslator.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Home\Home.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\Checkout-Body.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\Checkout-Spinner.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\Checkout.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\CheckoutNoScript.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\CreateInvoice.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\Invoice.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\InvoicePaymentsPartial.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\ListInvoices.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\PosData.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\AddU2FDevice.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\ChangePassword.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\Disable2fa.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\EnableAuthenticator.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\ExternalLogins.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\GenerateRecoveryCodes.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\Index.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\ResetAuthenticator.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\SetPassword.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\TwoFactorAuthentication.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\U2FAuthentication.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\_Nav.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PaymentRequest\EditPaymentRequest.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PaymentRequest\GetPaymentRequests.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PaymentRequest\MinimalPaymentRequest.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PaymentRequest\ViewPaymentRequest.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PublicLightningNodeInfo\ShowLightningNodeInfo.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Public\PayButtonHandle.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\CreateTemporaryFileUrl.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\EditAmazonS3StorageProvider.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\EditAzureBlobStorageStorageProvider.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\EditFilesystemStorageProvider.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\EditGoogleCloudStorageStorageProvider.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Emails.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Files.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\LightningChargeServices.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\LightningWalletServices.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\ListUsers.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\LndServices.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Logs.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Maintenance.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\P2PService.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Policies.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Rates.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Services.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\SSHService.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Storage.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Theme.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\User.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\_Nav.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\Confirm.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\EmailsBody.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\NotificationEmailWarning.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\SyncModal.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\_NavLayout.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\_StatusMessage.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\AddDerivationScheme.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\AddLightningNode.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\CheckoutExperience.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\CreateToken.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\Emails.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\ListTokens.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\PayButton.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\PayButtonEnable.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\Rates.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\RequestPairing.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\ShowToken.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\StoreUsers.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\UpdateChangellySettings.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\UpdateCoinSwitchSettings.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\UpdateStore.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\_Nav.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\UserStores\CreateStore.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\UserStores\ListStores.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\ListWallets.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\SignWithSeed.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletPSBT.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletPSBTCombine.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletPSBTReady.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletRescan.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletSend.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletSendLedger.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletSettings.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletTransactions.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\_Nav.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorTargetAssemblyInfo.cache
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorTargetAssemblyInfo.cs
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.Views.pdb
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.dll
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.pdb
+C:\Users\Rolando\Desktop\BTCPAY\btcpayserver-master\btcpayserver-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.csproj.CopyComplete
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.deps.json
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.runtimeconfig.json
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.runtimeconfig.dev.json
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.dll
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.pdb
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.Views.dll
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\bin\Release\netcoreapp2.1\BTCPayServer.Views.pdb
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.csprojAssemblyReference.cache
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.csproj.CoreCompileInputs.cache
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorAssemblyInfo.cache
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorAssemblyInfo.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.AssemblyInfoInputs.cache
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.AssemblyInfo.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.TagHelpers.input.cache
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.TagHelpers.output.cache
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorCoreGenerate.cache
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\AccessDenied.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ExternalLogin.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\Lockout.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\LoginWith2fa.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\LoginWithRecoveryCode.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\LoginWithU2F.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\SecondaryLogin.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Account\SignedOut.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\Crowdfund\ContributeForm.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\Crowdfund\MinimalCrowdfund.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\Crowdfund\VueCrowdfund.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\ViewCrowdfund.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\AppsPublic\ViewPointOfSale.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\CreateApp.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\ListApps.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\UpdateCrowdfund.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\UpdatePointOfSale.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Apps\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Home\BitpayTranslator.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Home\Home.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\Checkout-Body.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\Checkout-Spinner.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\Checkout.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\CheckoutNoScript.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\CreateInvoice.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\Invoice.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\InvoicePaymentsPartial.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\ListInvoices.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\PosData.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Invoice\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\AddU2FDevice.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\ChangePassword.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\Disable2fa.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\EnableAuthenticator.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\ExternalLogins.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\GenerateRecoveryCodes.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\Index.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\ResetAuthenticator.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\SetPassword.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\TwoFactorAuthentication.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\U2FAuthentication.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\_Nav.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Manage\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PaymentRequest\EditPaymentRequest.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PaymentRequest\GetPaymentRequests.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PaymentRequest\MinimalPaymentRequest.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PaymentRequest\ViewPaymentRequest.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\PublicLightningNodeInfo\ShowLightningNodeInfo.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Public\PayButtonHandle.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\CreateTemporaryFileUrl.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\EditAmazonS3StorageProvider.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\EditAzureBlobStorageStorageProvider.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\EditFilesystemStorageProvider.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\EditGoogleCloudStorageStorageProvider.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Emails.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Files.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\LightningChargeServices.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\LightningWalletServices.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\ListUsers.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\LndServices.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Logs.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Maintenance.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\P2PService.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Policies.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Rates.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Services.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\SSHService.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Storage.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\Theme.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\User.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\_Nav.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Server\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\Confirm.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\EmailsBody.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\NotificationEmailWarning.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\SyncModal.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\_NavLayout.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\_StatusMessage.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\AddDerivationScheme.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\AddLightningNode.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\CheckoutExperience.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\CreateToken.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\Emails.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\ListTokens.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\PayButton.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\PayButtonEnable.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\Rates.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\RequestPairing.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\ShowToken.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\StoreUsers.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\UpdateChangellySettings.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\UpdateCoinSwitchSettings.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\UpdateStore.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\_Nav.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Stores\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\UserStores\CreateStore.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\UserStores\ListStores.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\ListWallets.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\SignWithSeed.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletPSBT.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletPSBTCombine.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletPSBTReady.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletRescan.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletSend.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletSendLedger.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletSettings.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\WalletTransactions.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\_Nav.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\Wallets\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorTargetAssemblyInfo.cache
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.RazorTargetAssemblyInfo.cs
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.Views.pdb
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.dll
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.pdb
+C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-default - copia\banexcoinpay-master\BTCPayServer\obj\Release\netcoreapp2.1\BTCPayServer.csproj.CopyComplete

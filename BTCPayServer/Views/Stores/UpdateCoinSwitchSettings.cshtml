@@ -1,0 +1,49 @@
+﻿@using Microsoft.AspNetCore.Mvc.Rendering
+@model UpdateCoinSwitchSettingsViewModel
+@{
+    Layout = "../Shared/_NavLayout.cshtml";
+    ViewData.SetActivePageAndTitle(StoreNavPages.Index, "Actualizar la configuración de CoinSwitch de la tiendas");
+}
+
+<h4>@ViewData["Title"]</h4>
+<partial name="_StatusMessage" for="StatusMessage"/>
+
+<div class="row">
+    <div class="col-md-10">
+        <form method="post">
+            <div class="alert alert-warning" role="alert">
+                Si está habilitando el soporte de CoinSwitch, le recomendamos que configure el vencimiento de la factura en un mínimo de 30 minutos, ya que puede tardar más de los 15 minutos predeterminados para convertir los fondos.
+            </div>
+            <p>
+                Puede obtener una identificación de comerciante en
+                <a href="https://coinswitch.co/switch/setup/btcpay" target="_blank">
+                    https://coinswitch.co/switch/setup/btcpay
+                </a>
+            </p>
+            <div class="form-group">
+                <label asp-for="MerchantId"></label>
+                <input asp-for="MerchantId" class="form-control"/>
+                <span asp-validation-for="MerchantId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mode"></label>
+                <select asp-for="Mode" asp-items="Model.Modes" class="form-control">
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="AmountMarkupPercentage"></label>
+                <input asp-for="AmountMarkupPercentage" class="form-control"/>
+                <span asp-validation-for="AmountMarkupPercentage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Enabled"></label>
+                <input asp-for="Enabled" type="checkbox" class="form-check"/>
+            </div>
+            <button name="command" type="submit" value="save" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,75 @@
+﻿@model PaymentModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <META NAME="robots" CONTENT="noindex,nofollow">
+    <title>@Model.HtmlTitle</title>
+</head>
+<body>
+    <h1>Pagar con @Model.StoreName</h1>
+    @if (Model.Status == "new")
+    {
+        <div>
+            <p>Para completar el pago, por favor envíe <b>@Model.BtcDue @Model.CryptoCode</b> a <b style="word-break: break-word;">@Model.BtcAddress</b></p>
+            <p>Tiempo restante: @Model.TimeLeft</p>
+            <p><a href="@Model.InvoiceBitcoinUrl" style="word-break: break-word;">@Model.InvoiceBitcoinUrl</a></p>
+            @if (Model.IsLightning)
+            {
+                <p>Información: <b>@Model.PeerInfo</b></p>
+            }
+        </div>
+
+        @if (Model.AvailableCryptos.Count > 1)
+        {
+            <div>
+                <hr />
+                <h2>Pagar con:</h2>
+                <ul style="list-style-type: none;padding-left: 5px;">
+                    @foreach (var crypto in Model.AvailableCryptos)
+                    {
+                        <li style="height: 32px; line-height: 32px;">
+                            <a href="/invoice-noscript?id=@Model.InvoiceId&paymentMethodId=@crypto.PaymentMethodId">
+                            <img alt="@crypto.PaymentMethodName" src="@crypto.CryptoImage" style="vertical-align:middle; height:24px; text-decoration:none; margin-top: -3px;" /></a>
+                            <a href="/invoice-noscript?id=@Model.InvoiceId&paymentMethodId=@crypto.PaymentMethodId" style="padding-top: 2px;">
+                                @crypto.PaymentMethodName
+                                @(crypto.IsLightning ? Html.Raw("&#9889;") : null)
+                                (@crypto.CryptoCode)
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+    }
+    else if (Model.Status == "paid" || Model.Status == "complete" || Model.Status == "confirmed")
+    {
+        <div>
+            <p>Esta factura ha sido pagada.</p>
+        </div>
+    }
+    else if (Model.Status == "expired" || Model.Status == "invalid")
+    {
+        <div>
+            <p>Esta factura ha caducado.</p>
+        </div>
+    }
+    else
+    {
+        <div>
+            <p>Estado de factura no soportado</p>
+        </div>
+    }
+
+    <hr />
+    <p>
+        <a href="/i/@Model.InvoiceId">Volver a la factura habilitada para Javascript</a>
+    </p>
+</body>
+</html>

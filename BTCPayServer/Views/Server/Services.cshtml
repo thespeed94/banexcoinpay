@@ -1,0 +1,177 @@
+﻿@model BTCPayServer.Models.ServerViewModels.ServicesViewModel
+@{
+    ViewData.SetActivePageAndTitle(ServerNavPages.Services);
+}
+
+
+<h4>@ViewData["Title"]</h4>
+<partial name="_StatusMessage" for="@TempData["TempDataProperty-StatusMessage"]"/>
+<div class="row">
+    <div class="col-md-6">
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-8">
+        <h4>Servicios criptomonedas</h4>
+        <div class="form-group">
+            <span>Puede acceder aquí a los servicios expuestos por su servidor.</span>
+        </div>
+
+        <div class="form-group">
+            <table class="table table-sm table-responsive-md">
+                <thead>
+                <tr>
+                    <th>Cripto</th>
+                    <th>Tipo de acceso</th>
+                    <th style="text-align: right">Acciones</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var s in Model.ExternalServices)
+                {
+                    <tr>
+                        <td>@s.CryptoCode</td>
+                        <td>@s.DisplayName</td>
+                        <td style="text-align: right">
+                            <a asp-action="Service" asp-route-serviceName="@s.ServiceName" asp-route-cryptoCode="@s.CryptoCode">Ver informacion</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@if (Model.OtherExternalServices.Count != 0)
+{
+    <div class="row">
+        <div class="col-md-8">
+            <h4>Otros servicios</h4>
+            <div class="form-group">
+                <span>Otros servicios externos</span>
+            </div>
+            <div class="form-group">
+                <table class="table table-sm table-responsive-md">
+                    <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th style="text-align: right">Acciones</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var s in Model.OtherExternalServices)
+                    {
+                        <tr>
+                            <td>@s.Name</td>
+                            <td style="text-align: right">
+                                <a href="@s.Link" target="_blank">Ver informacion</a>
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@if (Model.TorHttpServices.Count != 0)
+{
+    <div class="row">
+        <div class="col-md-8">
+            <h4>Servicios ocultos HTTP TOR</h4>
+            <div class="form-group">
+                <span>Los servicios TOR alojados en este servidor, solo los servidores http están listados aquí.</span>
+            </div>
+            <div class="form-group">
+                <table class="table table-sm table-responsive-md">
+                    <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th style="text-align: right">Acciones</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var s in Model.TorHttpServices)
+                    {
+                        <tr>
+                            <td>@s.Name</td>
+                            <td style="text-align: right">
+                                <a href="@s.Link" target="_blank">Ver informacion</a>
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@if (Model.TorOtherServices.Count != 0)
+{
+    <div class="row">
+        <div class="col-md-8">
+            <h4>Otros servicios ocultos TOR</h4>
+            <div class="form-group">
+                <span>Servicios TOR alojados en este servidor que no están basados en http.</span>
+            </div>
+            <div class="form-group">
+                <table class="table table-sm table-responsive-md">
+                    <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th style="text-align: right">Acciones</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var s in Model.TorOtherServices)
+                    {
+                        <tr>
+                            <td>@s.Name</td>
+                            <td style="text-align: right">@s.Link</td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+<div class="row">
+    <div class="col-md-8">
+        <h4>Servicios de almacenamiento externo</h4>
+        <div class="form-group">
+            <span>Proveedores de almacenamiento integrado para almacenar cargas de archivos desde btcpay</span>
+        </div>
+        <div class="form-group">
+            <table class="table table-sm table-responsive-md">
+                <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th style="text-align: right">Acciones</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var s in Model.ExternalStorageServices)
+                {
+                    <tr>
+                        <td>@s.Name</td>
+                        <td style="text-align: right">
+                            <a href="@s.Link">Editar</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

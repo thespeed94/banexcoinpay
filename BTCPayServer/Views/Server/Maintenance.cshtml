@@ -1,0 +1,80 @@
+﻿@model BTCPayServer.Models.ServerViewModels.MaintenanceViewModel
+@{
+    ViewData.SetActivePageAndTitle(ServerNavPages.Maintenance);
+}
+
+
+<h4>@ViewData["Title"]</h4>
+<partial name="_StatusMessage" for="@TempData["TempDataProperty-StatusMessage"]" />
+
+<div class="row">
+
+    <div class="col-md-8">
+        <form method="post">
+            @if (!Model.ExposedSSH)
+            {
+                <div class="form-group">
+                    <h5>Configuraciones SSH</h5>
+                    <span>Para cambiar cualquier configuración, debe ingresar sus credenciales de SSH:</span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UserName"></label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            }
+            else
+            {
+                <input asp-for="Password" type="hidden" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <input asp-for="UserName" type="hidden" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            }
+            <div class="form-group">
+                <h5>Cambiar nombre de dominio</h5>
+                <span>Puede cambiar el nombre de dominio de su servidor siguiendo <a href="https://github.com/btcpayserver/btcpayserver-doc/blob/master/ChangeDomain.md">esta guia</a></span>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <input asp-for="DNSDomain" class="form-control" />
+                    <span class="input-group-btn">
+                        <button name="command" type="submit" class="btn btn-primary" value="changedomain" title="Change domain">
+                            <span class="fa fa-check"></span> Confirmar
+                        </button>
+                    </span>
+                </div>
+                <span asp-validation-for="DNSDomain" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <h5>Actualizar</h5>
+                <span>Haga clic aquí para actualizar su servidor</span>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <button name="command" type="submit" class="btn btn-primary" value="update">Actualizar</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <h5>Limpiar</h5>
+                <span>Haga clic aquí para eliminar las imágenes sin conexión presentes en su sistema</span>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <button name="command" type="submit" class="btn btn-primary" value="clean">Limpiar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

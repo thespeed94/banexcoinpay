@@ -1,0 +1,188 @@
+﻿@model DerivationSchemeViewModel
+@{
+    Layout = "../Shared/_NavLayout.cshtml";
+    ViewData.SetActivePageAndTitle(StoreNavPages.Index, $"{Model.CryptoCode} Esquema de derivacion");
+}
+
+<partial name="_StatusMessage" for="StatusMessage" />
+<h4>@ViewData["Title"]</h4>
+
+<div class="row">
+    <div class="col-md-6">
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+    
+        <div class="modal fade" id="coldcardimport" tabindex="-1" role="dialog" aria-labelledby="coldcardimport" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <form class="modal-content" form method="post" enctype="multipart/form-data">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Importar billetera Coldcard</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Puede importar su billetera Coldcard exportando los detalles públicos de <kbd>Advanced->MicroSD Card->Electrum Wallet</kbd> y subiéndola aquí.</p>
+                        <div class="form-group">
+                            <label asp-for="ColdcardPublicFile"></label>
+                            
+                            <input type="file" class="form-control-file"  asp-for="ColdcardPublicFile" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    
+        <form method="post">
+            @if (!Model.Confirmation)
+            {
+                <div class="form-group">
+                    <h5>Esquema de derivación</h5>
+                    <span>El DerivationScheme representa el destino de los fondos recibidos por su factura. Es generado por su software de cartera. Por favor, verifique que está generando las direcciones correctas haciendo clic en 'Check ExtPubKey'</span>
+                </div>
+                <input id="CryptoCurrency" asp-for="CryptoCode" type="hidden" />
+                <input id="KeyPath" asp-for="KeyPath" type="hidden" />
+                <input id="Source" asp-for="Source" type="hidden" />
+                <input id="RootFingerprint" asp-for="RootFingerprint" type="hidden" />
+                <input id="AccountKey" asp-for="AccountKey" type="hidden" />
+                <input id="Config" asp-for="Config" type="hidden" />
+                <div class="form-group">
+                    <label asp-for="DerivationScheme"></label>
+                    <input asp-for="DerivationScheme" class="form-control" />
+                    <span asp-validation-for="DerivationScheme" class="text-danger"></span>
+                    <div id="ledger-loading" class="form-text text-muted">
+                        Comprobando si un monedero está conectado...
+                    </div>
+                    <div id="ledger-validate" class="form-text text-muted" style="display: none;">
+                        Por favor valide el acceso en su pantalla...
+                    </div>
+                    <p id="no-ledger-info" class="form-text text-muted" style="display: none;">
+                        No se ha detectado billetera contable. Si tienes uno, usa Chrome, abre la aplicación y actualiza esta página.
+                    </p>
+                    <div id="ledger-info" class="form-text text-muted display-when-ledger-connected">
+                        <span>Se detecta una billetera contable, ¿qué cuenta desea usar? No es necesario pegar manualmente xpub si se detectó su dispositivo contable. Simplemente seleccione el esquema de derivación de la siguiente lista y xpub se llenará automáticamente.</span>
+                    </div>
+                    <div class="d-flex">
+                        <button type="button" class="btn btn-primary mr-2 " data-toggle="modal" data-target="#coldcardimport">
+                            Importar cartera Coldcard 
+                        </button>
+                        <div class="dropdown display-when-ledger-connected">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="ledgerAccountsDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Seleccionar cuenta billetera contable
+                            </button>
+                            <div class="dropdown-menu overflow-auto" style="max-height: 200px;" aria-labelledby="ledgerAccountsDropdownMenuButton">
+                                @for (var i = 0; i < 20; i++)
+                                {
+                                    <a class="dropdown-item ledger-info-recommended" data-ledgerkeypath="@Model.RootKeyPath.Derive(i, true)" href="#">Account @i (<span>@Model.RootKeyPath.Derive(i, true)</span>)</a>
+                                }
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <span>Formato de BTCPay memo</span>
+                    <table class="table table-sm table-responsive-md">
+                        <thead>
+                            <tr>
+                                <th>Tipo de dirección</th>
+                                <th>Ejemplo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>P2WPKH</td>
+                                <td>xpub</td>
+                            </tr>
+                            <tr>
+                                <td>P2SH-P2WPKH</td>
+                                <td>xpub-[p2sh]</td>
+                            </tr>
+                            <tr>
+                                <td>P2PKH</td>
+                                <td>xpub-[legacy]</td>
+                            </tr>
+                            <tr>
+                                <td>Multi-sig P2WSH</td>
+                                <td>2-of-xpub1-xpub2</td>
+                            </tr>
+                            <tr>
+                                <td>Multi-sig P2SH-P2WSH</td>
+                                <td>2-of-xpub1-xpub2-[p2sh]</td>
+                            </tr>
+                            <tr>
+                                <td>Multi-sig P2SH</td>
+                                <td>2-of-xpub1-xpub2-[legacy]</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Enabled"></label>
+                    <input asp-for="Enabled" type="checkbox" class="form-check" />
+                </div>
+                <button name="command" type="submit" class="btn btn-primary" value="save" id="Continue">Continuar</button>
+            }
+            else
+            {
+                <div class="form-group">
+                    <h5>Confirmar las direcciones (@Model.CryptoCode)</h5>
+                    <span>Por favor, compruebe que su @Model.CryptoCode billetera está generando las mismas direcciones que abajo..</span>
+                </div>
+                <input type="hidden" asp-for="Confirmation" />
+                <input id="KeyPath" asp-for="KeyPath" type="hidden" />
+                <input id="Source" asp-for="Source" type="hidden" />
+                <input id="RootFingerprint" asp-for="RootFingerprint" type="hidden" />
+                <input id="AccountKey" asp-for="AccountKey" type="hidden" />
+                <input type="hidden" asp-for="DerivationScheme" />
+                <input type="hidden" asp-for="Enabled" />
+                <input id="Config" asp-for="Config" type="hidden" />
+                <div class="form-group">
+                    <table class="table table-sm table-responsive-md">
+                        <thead>
+                            <tr>
+                                <th>Clave</th>
+                                <th>Dirección</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var sample in Model.AddressSamples)
+                            {
+                                <tr>
+                                    <td>@sample.KeyPath</td>
+                                    <td>@sample.Address</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="form-group">
+                    <h5>Direcciones equivocadas?</h5>
+                    <span>Ayúdenos a encontrar la configuración correcta diciéndonos la primera dirección de su billetera</span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HintAddress"></label>
+                    <input asp-for="HintAddress" class="form-control" />
+                    <span asp-validation-for="HintAddress" class="text-danger"></span>
+                </div>
+                <button name="command" type="submit" class="btn btn-primary" value="save" id="Confirm">Confirmar</button>
+            }
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script src="~/js/ledgerwebsocket.js" type="text/javascript" defer="defer"></script>
+    <script src="~/js/StoreAddDerivationScheme.js" type="text/javascript" defer="defer"></script>
+}
