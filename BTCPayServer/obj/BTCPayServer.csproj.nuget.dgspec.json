@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-default - copia\\banexcoinpay-master\\BTCPayServer\\BTCPayServer.csproj": {}
+    "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-github\\banexcoinpay\\BTCPayServer\\BTCPayServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-default - copia\\banexcoinpay-master\\BTCPayServer\\BTCPayServer.csproj": {
+    "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-github\\banexcoinpay\\BTCPayServer\\BTCPayServer.csproj": {
       "version": "1.0.3.105",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-default - copia\\banexcoinpay-master\\BTCPayServer\\BTCPayServer.csproj",
+        "projectUniqueName": "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-github\\banexcoinpay\\BTCPayServer\\BTCPayServer.csproj",
         "projectName": "BTCPayServer",
-        "projectPath": "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-default - copia\\banexcoinpay-master\\BTCPayServer\\BTCPayServer.csproj",
+        "projectPath": "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-github\\banexcoinpay\\BTCPayServer\\BTCPayServer.csproj",
         "packagesPath": "C:\\Users\\Rolando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-default - copia\\banexcoinpay-master\\BTCPayServer\\obj\\",
+        "outputPath": "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-github\\banexcoinpay\\BTCPayServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-default - copia\\banexcoinpay-master\\NuGet.Config",
+          "C:\\Users\\Rolando\\Desktop\\BTCPAY\\banexcoinpay-master-github\\banexcoinpay\\NuGet.Config",
           "C:\\Users\\Rolando\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
