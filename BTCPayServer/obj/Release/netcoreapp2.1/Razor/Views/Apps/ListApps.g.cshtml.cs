@@ -111,7 +111,7 @@ using BTCPayServer.Services.Apps;
             WriteLiteral("\r\n<section>\r\n    <div class=\"container\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-lg-12 text-center\">\r\n                ");
             EndContext();
             BeginContext(245, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "530b0a7ff09f4a0ab7df75bf7995632a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5d76f23f0aab408c95591a32ba0800d0", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -146,7 +146,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral("</h2>\r\n                <hr class=\"primary\">\r\n                <p>Crea y gestiona aplicaciones.</p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row no-gutter\" style=\"margin-bottom: 5px;\">\r\n            <div class=\"col-lg-6\">\r\n                ");
             EndContext();
             BeginContext(760, 145, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f7043ac7a28494e8f14844dd3843ebc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4cd92496b5f494fbf821a824cba9853", async() => {
                 BeginContext(842, 59, true);
                 WriteLiteral("<span class=\"fa fa-plus\"></span> Crear una nueva aplicación");
                 EndContext();
@@ -204,7 +204,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral("                                    <span>");
             EndContext();
             BeginContext(1799, 103, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3cb81690e8014f2f86c735c318a99dd3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f76d712528fc475085434a3b4d4f7d70", async() => {
                 BeginContext(1885, 13, false);
 #line 47 "C:\Users\Rolando\Desktop\BTCPAY\banexcoinpay-master-github\banexcoinpay\BTCPayServer\Views\Apps\ListApps.cshtml"
                                                                                                                           Write(app.StoreName);
@@ -302,7 +302,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral("                                    ");
             EndContext();
             BeginContext(2437, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a483e649b774edca0a5aecc0917d686", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8bf002b066cf48b8ba6826a42e3764d9", async() => {
                 BeginContext(2519, 7, true);
                 WriteLiteral("Ajustes");
                 EndContext();
@@ -354,7 +354,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral("                                ");
             EndContext();
             BeginContext(2615, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "619e35be86934cf7bd85729acf994257", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9e90b16e7152414bb1a9304d848d6ad8", async() => {
                 BeginContext(2701, 3, true);
                 WriteLiteral("Ver");
                 EndContext();
@@ -398,7 +398,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral("<span> - </span>\r\n                                ");
             EndContext();
             BeginContext(2758, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "54e354eaacd24444941258e82e75ad4e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da73d42417a646198238add992ab2c11", async() => {
                 BeginContext(2810, 7, true);
                 WriteLiteral("Retirar");
                 EndContext();

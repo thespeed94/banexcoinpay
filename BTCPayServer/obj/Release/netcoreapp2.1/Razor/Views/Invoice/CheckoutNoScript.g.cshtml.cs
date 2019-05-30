@@ -96,7 +96,7 @@ using BTCPayServer.Services.Invoices;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(73, 299, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26bbe55f5f674b30b9e2497274eb052f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "372a91e4969a4563a34baf63faf5f700", async() => {
                 BeginContext(79, 260, true);
                 WriteLiteral(@"
     <meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
@@ -132,7 +132,7 @@ using BTCPayServer.Services.Invoices;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(374, 2330, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33890a5ec2f84940bc1f531671f80bcc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ac10e83354e0494685176081d83e8140", async() => {
                 BeginContext(380, 20, true);
                 WriteLiteral("\r\n    <h1>Pagar con ");
                 EndContext();

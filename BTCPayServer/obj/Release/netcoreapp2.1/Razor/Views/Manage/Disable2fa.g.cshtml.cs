@@ -120,7 +120,7 @@ Write(ViewData["Title"]);
          utilizado en una aplicación de autenticador que debería ");
             EndContext();
             BeginContext(547, 119, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90695ee5cb2346d9a935f7ba47518cff", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ddb015cf87e64acc8bdadb601f4e8450", async() => {
                 BeginContext(589, 73, true);
                 WriteLiteral("\r\n            reinicia tu\r\n             claves de autenticador.\r\n        ");
                 EndContext();
@@ -142,7 +142,7 @@ Write(ViewData["Title"]);
             WriteLiteral("\r\n    </p>\r\n</div>\r\n\r\n<div>\r\n    ");
             EndContext();
             BeginContext(699, 156, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "590ed68f994f492aa7588fc12a709d54", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73f6faea84594b18b2ef29942a5d3f99", async() => {
                 BeginContext(762, 86, true);
                 WriteLiteral("\r\n        <button class=\"btn btn-danger\" type=\"submit\">Deshabilitar 2FA</button>\r\n    ");
                 EndContext();

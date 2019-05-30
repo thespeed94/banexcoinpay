@@ -84,7 +84,7 @@ using BTCPayServer.Models.StoreViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(47, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("bundle", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e31e576e21dc4974aa7ba1950c2b572b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("bundle", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9bbbe329ddf645328198748d4d33ce61", async() => {
             }
             );
             __BundlerMinifier_TagHelpers_BundleTagHelper = CreateTagHelper<global::BundlerMinifier.TagHelpers.BundleTagHelper>();

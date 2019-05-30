@@ -88,7 +88,7 @@ using BTCPayServer.Models.StoreViewModels;
     </button>La configuración del correo electrónico aún no se ha configurado en este servidor o tienda. La configuración de este campo no enviará correos electrónicos hasta entonces.. ");
             EndContext();
             BeginContext(369, 110, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a79ec99d70e24010940fa1bbb0716d7d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5587a1413bcf441a915290a41c3af37e", async() => {
                 BeginContext(416, 59, true);
                 WriteLiteral("Configurar las opciones de correo electrónico de la tienda.");
                 EndContext();

@@ -102,7 +102,7 @@ using BTCPayServer.Models.WalletViewModels;
             WriteLiteral("\r\n<div class=\"nav flex-column nav-pills\">\r\n    ");
             EndContext();
             BeginContext(101, 146, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "79db44b8753b432aa7a56aaca3311126", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66a308ecda3c48a6858e03468158cc2a", async() => {
                 BeginContext(230, 13, true);
                 WriteLiteral("transacciones");
                 EndContext();
@@ -133,7 +133,7 @@ AddHtmlAttributeValue(" ", 119, ViewData.IsActivePage(WalletsNavPages.Transactio
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(253, 115, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e9e15e76ee44d438df52d692b8c1347", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2bde53dba7be421aaf30e4e8a1fc39c3", async() => {
                 BeginContext(358, 6, true);
                 WriteLiteral("Enviar");
                 EndContext();
@@ -164,7 +164,7 @@ AddHtmlAttributeValue(" ", 271, ViewData.IsActivePage(WalletsNavPages.Send), 272
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(374, 114, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66d380ead7cb4e08b3b2fe696d93843f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9d0061be9084378abb06dbb2e8e6971", async() => {
                 BeginContext(467, 17, true);
                 WriteLiteral("Volver a explorar");
                 EndContext();
@@ -194,7 +194,7 @@ AddHtmlAttributeValue(" ", 392, ViewData.IsActivePage(WalletsNavPages.Rescan), 3
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(494, 97, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ecee240515747ac85e134e0136ef1db", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c3d1690311e4eca943e6ad69e792b47", async() => {
                 BeginContext(583, 4, true);
                 WriteLiteral("PSBT");
                 EndContext();
@@ -224,7 +224,7 @@ AddHtmlAttributeValue(" ", 512, ViewData.IsActivePage(WalletsNavPages.PSBT), 513
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(597, 128, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d8b8d37316d74407b645cf7b761d1dcb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "89058c145c884fb0889be8840e3c2f3a", async() => {
                 BeginContext(714, 7, true);
                 WriteLiteral("Ajustes");
                 EndContext();

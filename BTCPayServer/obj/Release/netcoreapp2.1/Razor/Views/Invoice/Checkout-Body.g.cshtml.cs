@@ -136,7 +136,7 @@ WriteAttributeValue("", 226, Model.CustomLogoLink, 226, 21, false);
             WriteLiteral("                ");
             EndContext();
             BeginContext(327, 70, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b785757ebf054a4d92884a55287ecd2b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "46cc89c0bec746d9ab24a3111158cbbd", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -172,7 +172,7 @@ WriteAttributeValue("", 226, Model.CustomLogoLink, 226, 21, false);
             ");
             EndContext();
             BeginContext(682, 35, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "97c431950b4945bb8f82b5d5e5871691", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "822cfe60e98e4a1e9b562fd4ba5cdc1a", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -351,7 +351,7 @@ WriteAttributeValue("", 2573, crypto.CryptoImage, 2573, 19, false);
             WriteLiteral("            <div class=\"payment__spinner\">\r\n                ");
             EndContext();
             BeginContext(3405, 35, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f07072f23f3942448860a939380ecec8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "021b246782b547d288a8afedbb29f7d3", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -474,7 +474,7 @@ WriteAttributeValue("", 2573, crypto.CryptoImage, 2573, 19, false);
             WriteLiteral("    </div>\r\n</div>\r\n\r\n<div class=\"payment-box\">\r\n    <div class=\"bp-view payment manual-flow enter-contact-email active\" id=\"emailAddressView\">\r\n        ");
             EndContext();
             BeginContext(7357, 1308, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00466d299bb64f978a5b4d6a96d8a0b8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ecb8b8596a74ce69e9ade8c52476047", async() => {
                 BeginContext(7487, 1005, true);
                 WriteLiteral(@"
             <div class=""manual__step-one__header"">
@@ -495,7 +495,7 @@ WriteAttributeValue("", 2573, crypto.CryptoImage, 2573, 19, false);
                             ");
                 EndContext();
                 BeginContext(8492, 35, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "449ec40c23e947d6afb108c988aefd80", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ef5c4d49d0d54aac8a3fcd05b4e129ec", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -554,7 +554,7 @@ WriteAttributeValue("", 2573, crypto.CryptoImage, 2573, 19, false);
             WriteLiteral("#f5f5f7\'} }\" tag=\"svg\"\r\n                    v-if=\"scanDisplayQr\">\r\n            </qrcode>\r\n\r\n\r\n            <div class=\"payment__spinner qr_currency_icon\" style=\"padding-right: 20px;\">\r\n                ");
             EndContext();
             BeginContext(9889, 35, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "707e94ba07b04fffa8e4f0f026f9d72a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a9eaede08c6743628eec5eaf8f9fe59b", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -759,7 +759,7 @@ WriteAttributeValue("", 2573, crypto.CryptoImage, 2573, 19, false);
             WriteLiteral("         ref=\"changellyCurrenciesDropdown\">\r\n                                        ");
             EndContext();
             BeginContext(16927, 76, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d8cf712c9c444f7a887575fb14c21da9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "efd81230cc9c4e2081812aea4cc34f65", async() => {
                 BeginContext(16944, 50, true);
                 WriteLiteral("{{$t(\"ConversionTab_CurrencyList_Select_Option\")}}");
                 EndContext();
@@ -781,7 +781,7 @@ WriteAttributeValue("", 2573, crypto.CryptoImage, 2573, 19, false);
             WriteLiteral("\r\n                                        ");
             EndContext();
             BeginContext(17045, 330, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da1e1496abf14776ade0804325a54d6c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b5a0eb3cd6634eb49572611f9f4fe94e", async() => {
                 BeginContext(17257, 109, true);
                 WriteLiteral("\r\n                                            {{currency.fullName}}\r\n                                        ");
                 EndContext();
@@ -834,7 +834,7 @@ WriteAttributeValue("", 2573, crypto.CryptoImage, 2573, 19, false);
                                     ");
             EndContext();
             BeginContext(18686, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0fa789932a6c4613a24280cb86dd9865", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "826156ac702143e1845c0aad88ee20f5", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -877,7 +877,7 @@ WriteAttributeValue("", 2573, crypto.CryptoImage, 2573, 19, false);
                                 ");
             EndContext();
             BeginContext(19299, 36, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "da84e9916044473ba10cb9dde0cecb45", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c7cd331e07a64f6bb666ab2a96617f21", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -916,7 +916,7 @@ WriteAttributeValue("", 2573, crypto.CryptoImage, 2573, 19, false);
             ");
             EndContext();
             BeginContext(20285, 35, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6218cd5d30754f4e88ea131868c5668a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "7681281dc6e24111b108684014d1c9d4", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -121,7 +121,7 @@ Write(ViewData["Title"]);
     ");
             EndContext();
             BeginContext(695, 178, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "071853d2cab54a759da180a174fd2643", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7f8585ad9cf740a39bfd7493bb1946bd", async() => {
                 BeginContext(766, 100, true);
                 WriteLiteral("\r\n        <button class=\"btn btn-danger\" type=\"submit\">Restablecer clave autenticador</button>\r\n    ");
                 EndContext();

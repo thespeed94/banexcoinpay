@@ -103,7 +103,7 @@ using BTCPayServer.Models.ServerViewModels;
             WriteLiteral("<div class=\"nav flex-column nav-pills\">\r\n    ");
             EndContext();
             BeginContext(45, 96, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2cadfa0fac604424ac6a242927faed8c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d5641eac9b741bb9ded86da6dd4eb66", async() => {
                 BeginContext(129, 8, true);
                 WriteLiteral("Usuarios");
                 EndContext();
@@ -133,7 +133,7 @@ AddHtmlAttributeValue(" ", 63, ViewData.IsActivePage(ServerNavPages.Users), 64, 
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(147, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fbc9a8424f6d4be0bfc41b6f29e7fe17", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a6a55d5e2754435bb30f4713ea01ef09", async() => {
                 BeginContext(231, 7, true);
                 WriteLiteral("Tarifas");
                 EndContext();
@@ -163,7 +163,7 @@ AddHtmlAttributeValue(" ", 165, ViewData.IsActivePage(ServerNavPages.Rates), 166
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(248, 120, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53a91b483b604828bb0a8eda26dc8e59", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "46e71230963e43d4b0966b7ed60f2046", async() => {
                 BeginContext(334, 30, true);
                 WriteLiteral("Servidor de correo electrónico");
                 EndContext();
@@ -193,7 +193,7 @@ AddHtmlAttributeValue(" ", 266, ViewData.IsActivePage(ServerNavPages.Emails), 26
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(374, 103, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6dff4fa70c76488496cad6b291cbc6ba", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7ef11c1f192849b889a450683104494b", async() => {
                 BeginContext(464, 9, true);
                 WriteLiteral("Políticas");
                 EndContext();
@@ -223,7 +223,7 @@ AddHtmlAttributeValue(" ", 392, ViewData.IsActivePage(ServerNavPages.Policies), 
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(483, 103, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b80fc71aca764a64a7c9f8eade139089", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ac677b6d0b91481fbff571bb87e8ee7c", async() => {
                 BeginContext(573, 9, true);
                 WriteLiteral("Servicios");
                 EndContext();
@@ -253,7 +253,7 @@ AddHtmlAttributeValue(" ", 501, ViewData.IsActivePage(ServerNavPages.Services), 
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(592, 92, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e3666457f0c14ae58ae8ae338df2f105", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e53b1acde4914ac09c1c819f1403eac3", async() => {
                 BeginContext(676, 4, true);
                 WriteLiteral("Tema");
                 EndContext();
@@ -283,7 +283,7 @@ AddHtmlAttributeValue(" ", 610, ViewData.IsActivePage(ServerNavPages.Theme), 611
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(690, 113, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "603a82d8aa1d4488b6f4897ddc97f094", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "13a883ac97e24f8f8db1ae2e5524ca7d", async() => {
                 BeginContext(786, 13, true);
                 WriteLiteral("Mantenimiento");
                 EndContext();
@@ -313,7 +313,7 @@ AddHtmlAttributeValue(" ", 708, ViewData.IsActivePage(ServerNavPages.Maintenance
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(809, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "733eefd8e11249799e1e4e5ad30f1799", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b5d027ca2a394c20a2a80ea81c7b9ed4", async() => {
                 BeginContext(891, 9, true);
                 WriteLiteral("Registros");
                 EndContext();
@@ -343,7 +343,7 @@ AddHtmlAttributeValue(" ", 827, ViewData.IsActivePage(ServerNavPages.Logs), 828,
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(910, 96, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01b5a3128ea048078586b32bccc87bab", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6dee9403761147b1b35f8b144f1ea011", async() => {
                 BeginContext(994, 8, true);
                 WriteLiteral("Archivos");
                 EndContext();

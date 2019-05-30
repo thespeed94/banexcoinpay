@@ -102,7 +102,7 @@ using BTCPayServer.Views.Manage;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(181, 52, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fc991340a9f04f9c993af479a7ad53c0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4482f7f4a9d24a149950892da1e932e4", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -127,7 +127,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral("\r\n<h4>Dispositivos U2F registrados</h4>\r\n");
             EndContext();
             BeginContext(274, 1243, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1a757c1579244ae4871437a7280a5afa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "664a3cb88b2f4a529ab104f8a3d37b7f", async() => {
                 BeginContext(319, 199, true);
                 WriteLiteral("\r\n    <table class=\"table table-lg\">\r\n        <thead>\r\n        <tr>\r\n            <th >Nombre</th>\r\n            <th class=\"text-right\">Acciones</th>\r\n        </tr>\r\n        </thead>\r\n        <tbody>\r\n");
                 EndContext();
@@ -151,7 +151,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
                 WriteLiteral("</td>\r\n                <td class=\"text-right\" >\r\n                        ");
                 EndContext();
                 BeginContext(700, 70, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c0fe77ed84643dab9cae5294dbee4b7", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dae92c47bbfa4c9e8fc2c61b6bdb8682", async() => {
                     BeginContext(758, 8, true);
                     WriteLiteral("Eliminar");
                     EndContext();

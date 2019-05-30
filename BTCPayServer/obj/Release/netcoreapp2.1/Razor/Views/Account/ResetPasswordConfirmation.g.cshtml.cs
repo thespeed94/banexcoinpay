@@ -100,7 +100,7 @@ Write(ViewData["Title"]);
             WriteLiteral("</h2>\r\n<section>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-lg-12 text-center\">\r\n                Tu contraseña ha sido restablecida. Por favor ");
             EndContext();
             BeginContext(283, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9914905eb7544a4e955f5c5b67b7d2d2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1617cf42a84d4ad79664c8103afb8471", async() => {
                 BeginContext(305, 28, true);
                 WriteLiteral("haga clic aquí para ingresar");
                 EndContext();

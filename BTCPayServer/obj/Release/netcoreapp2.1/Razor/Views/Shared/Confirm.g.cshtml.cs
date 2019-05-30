@@ -120,7 +120,7 @@ using BTCPayServer.Models.StoreViewModels;
             WriteLiteral("        <div class=\"row\">\r\n            <div class=\"col-lg-12 text-center\">\r\n                ");
             EndContext();
             BeginContext(512, 173, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3e089c9e75484ad1b2e163c03047968b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2be05ebc2d4b47e98343d9b12281e5cb", async() => {
                 BeginContext(532, 43, true);
                 WriteLiteral("\r\n                    <button type=\"submit\"");
                 EndContext();

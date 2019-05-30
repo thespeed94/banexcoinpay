@@ -119,7 +119,7 @@ Write(ViewData["Title"]);
             WriteLiteral("</h4>\r\n<!--<h4>Usuarios</h4>-->\r\n");
             EndContext();
             BeginContext(148, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e1bd9e3603034096a558f5135aef49f9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f698d8ee7d58483b82a346585015e1d5", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -144,7 +144,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(205, 227, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "711283052f9144e78d6a6415fac8ce07", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "de24495f653248f283b2e8a1f8199e4c", async() => {
                 BeginContext(373, 55, true);
                 WriteLiteral("<span class=\"fa fa-plus\"></span> Crear un nuevo usuario");
                 EndContext();
@@ -218,7 +218,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral("</td>\r\n                <td>");
             EndContext();
             BeginContext(811, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "58ad1e58c32e46e280ce33dab75eae4a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5d4c1ea7a2d84a5d8d8ef6d3d9f6adbd", async() => {
                 BeginContext(860, 9, true);
                 WriteLiteral("Modificar");
                 EndContext();
@@ -253,7 +253,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral(" <span> - </span> ");
             EndContext();
             BeginContext(891, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e20f1844eb24c5ab5f98a2def6892e8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26b4228fcd934b0bac48fdffe667526a", async() => {
                 BeginContext(946, 8, true);
                 WriteLiteral("Eliminar");
                 EndContext();

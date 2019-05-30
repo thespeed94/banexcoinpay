@@ -100,7 +100,7 @@ using BTCPayServer.Models.StoreViewModels;
             WriteLiteral("\r\n<section>\r\n    <div class=\"container\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-lg-12 text-center\">\r\n                ");
             EndContext();
             BeginContext(203, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "46705ecf56d4480399bf52a18e334745", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "18773d6411fe4ff0af95dfe86b7dd7ef", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -135,7 +135,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
             WriteLiteral("</h2>\r\n                <hr class=\"primary\">\r\n                <p>Crear y administrar la configuración de la tienda.</p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            ");
             EndContext();
             BeginContext(661, 142, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e96ae026b46c4638858028f22cfde640", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec96ba86f2fc415186d107bd305ebccc", async() => {
                 BeginContext(744, 55, true);
                 WriteLiteral("<span class=\"fa fa-plus\"></span> Crear una nueva tienda");
                 EndContext();
@@ -226,7 +226,7 @@ WriteAttributeValue("", 1502, store.WebSite, 1502, 14, false);
             WriteLiteral("                            </td>\r\n                            <td style=\"text-align:right\">\r\n                                ");
             EndContext();
             BeginContext(1699, 107, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "76c1fdb4b27a44469ceafec5c485c46a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f79b7072ed4427fb0153b7dfbb10918", async() => {
                 BeginContext(1794, 8, true);
                 WriteLiteral("Facturas");
                 EndContext();
@@ -273,7 +273,7 @@ WriteAttributeValue("", 1502, store.WebSite, 1502, 14, false);
             WriteLiteral("                                    ");
             EndContext();
             BeginContext(1948, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "484122a6475e488e83367fb571c611e2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "883ecf831ca440b986f664c13b9ad855", async() => {
                 BeginContext(2030, 7, true);
                 WriteLiteral("Ajustes");
                 EndContext();
@@ -318,7 +318,7 @@ WriteAttributeValue("", 1502, store.WebSite, 1502, 14, false);
             WriteLiteral("                                ");
             EndContext();
             BeginContext(2126, 70, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7a55109c567146d88931562c7ebb13d0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c402522374d4d24829cbba62f883d2a", async() => {
                 BeginContext(2184, 8, true);
                 WriteLiteral("Eliminar");
                 EndContext();

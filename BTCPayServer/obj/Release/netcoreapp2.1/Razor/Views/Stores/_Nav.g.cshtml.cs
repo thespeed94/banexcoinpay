@@ -95,7 +95,7 @@ using BTCPayServer.Views.Stores;
             WriteLiteral("<div class=\"nav flex-column nav-pills\">\r\n    ");
             EndContext();
             BeginContext(45, 114, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e56b75f5024482db60e554b38424f21", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cb8fc325d8ac4fe7a5ab2c6b7746d81f", async() => {
                 BeginContext(134, 21, true);
                 WriteLiteral("Configuración general");
                 EndContext();
@@ -125,7 +125,7 @@ AddHtmlAttributeValue(" ", 63, ViewData.IsActivePage(StoreNavPages.Index), 64, 4
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(165, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7736329c24394adf8caf8824c747ee9d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85cd783a547c46bbba6d14c4c91427fb", async() => {
                 BeginContext(248, 7, true);
                 WriteLiteral("Tarifas");
                 EndContext();
@@ -155,7 +155,7 @@ AddHtmlAttributeValue(" ", 183, ViewData.IsActivePage(StoreNavPages.Rates), 184,
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(265, 122, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "db71675ad07f499d9d0c2e2279fe1c7d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1bae2074fde1440c8771426fdc4c9b5e", async() => {
                 BeginContext(364, 19, true);
                 WriteLiteral("Experiencia de pago");
                 EndContext();
@@ -185,7 +185,7 @@ AddHtmlAttributeValue(" ", 283, ViewData.IsActivePage(StoreNavPages.Checkout), 2
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(393, 109, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "87e340354886407e870832abdcb33e0a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "961c3ed702ad4660a6a7886a6f59663b", async() => {
                 BeginContext(482, 16, true);
                 WriteLiteral("Tokens de acceso");
                 EndContext();
@@ -215,7 +215,7 @@ AddHtmlAttributeValue(" ", 411, ViewData.IsActivePage(StoreNavPages.Tokens), 412
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(508, 100, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b5bd8ee8cd614d19bd57c8b312ac8195", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2acf5cbeabbe4374acc75894c8dd84a7", async() => {
                 BeginContext(596, 8, true);
                 WriteLiteral("Usuarios");
                 EndContext();
@@ -245,7 +245,7 @@ AddHtmlAttributeValue(" ", 526, ViewData.IsActivePage(StoreNavPages.Users), 527,
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(614, 108, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "28db5da0481e44e6997927838c5ef09c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7ff864406e2b4adebb04d6c9e521800b", async() => {
                 BeginContext(705, 13, true);
                 WriteLiteral("Botón de pago");
                 EndContext();

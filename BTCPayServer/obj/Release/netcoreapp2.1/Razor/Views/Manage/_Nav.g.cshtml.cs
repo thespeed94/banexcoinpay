@@ -101,7 +101,7 @@ using BTCPayServer.Views.Manage;
             WriteLiteral("\r\n<div class=\"nav flex-column nav-pills\">\r\n    ");
             EndContext();
             BeginContext(206, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34090b31143e4a5490ff93fa8f2aa4d7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e38ee2c734946a8b403f42967ca8a27", async() => {
                 BeginContext(290, 6, true);
                 WriteLiteral("Perfil");
                 EndContext();
@@ -131,7 +131,7 @@ AddHtmlAttributeValue(" ", 224, ViewData.IsActivePage(ManageNavPages.Index), 225
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(306, 136, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1bca14da4c4e4cad8ca72cdb8d64f6bb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1678cfde030147c0a2a03fb284b1d38a", async() => {
                 BeginContext(428, 10, true);
                 WriteLiteral("Contraseña");
                 EndContext();
@@ -171,7 +171,7 @@ AddHtmlAttributeValue(" ", 324, ViewData.IsActivePage(ManageNavPages.ChangePassw
             WriteLiteral("        ");
             EndContext();
             BeginContext(488, 132, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8b26458269d4004935d264de252cbe7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e7c975972d424fe1a2d779ae46f1a0b7", async() => {
                 BeginContext(590, 26, true);
                 WriteLiteral("Inicios de sesión externos");
                 EndContext();
@@ -209,7 +209,7 @@ AddHtmlAttributeValue(" ", 506, ViewData.IsActivePage(ManageNavPages.ExternalLog
             WriteLiteral("    ");
             EndContext();
             BeginContext(633, 153, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a45ea1b8b8f74fb5b80a5bc8411d0940", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3993795ea3814602aff5e269687667c6", async() => {
                 BeginContext(753, 29, true);
                 WriteLiteral("Autenticación de dos factores");
                 EndContext();
@@ -239,7 +239,7 @@ AddHtmlAttributeValue(" ", 651, ViewData.IsActivePage(ManageNavPages.TwoFactorAu
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(792, 115, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19d19c16d5d444db9391f76b5502d03c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50c1856554894364bf92c6bd2ef7ded5", async() => {
                 BeginContext(886, 17, true);
                 WriteLiteral("Autenticación U2F");
                 EndContext();

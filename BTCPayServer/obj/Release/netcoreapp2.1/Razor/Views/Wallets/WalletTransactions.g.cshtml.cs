@@ -108,7 +108,7 @@ using BTCPayServer.Models.WalletViewModels;
             WriteLiteral("@media (min-width: 768px) {\r\n        .smMaxWidth {\r\n            max-width: 400px;\r\n        }\r\n    }\r\n\r\n    .unconf {\r\n        opacity: 0.5;\r\n    }\r\n</style>\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-md-10 text-center\">\r\n        ");
             EndContext();
             BeginContext(518, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b28ca69652d348149473e595ef56a41a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "815bb90a0a894fdc9246e1bc9bbf0257", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -143,7 +143,7 @@ Write(ViewData["Title"]);
             WriteLiteral("</h4>\r\n<div class=\"row\">\r\n    <div class=\"col-md-12\">\r\n        Si BTCPay Server le muestra un saldo no válido, ");
             EndContext();
             BeginContext(756, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eba8b777336d48b3997354bd081cb751", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41c169248434453fbf15b536d1fc1bd6", async() => {
                 BeginContext(785, 30, true);
                 WriteLiteral("volver a escanear su billetera");
                 EndContext();
