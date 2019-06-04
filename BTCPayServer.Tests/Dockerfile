@@ -22,4 +22,4 @@ ENV SCREEN_HEIGHT 600 \
 COPY . .
 RUN dotnet build
 WORKDIR /source/BTCPayServer.Tests
-ENTRYPOINT ["./docker-entrypoint.sh"]
+ENTRYPOINT ["chmod", "+x", "./docker-entrypoint.sh"]
